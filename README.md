@@ -9,7 +9,10 @@ The following models were studied:
 * Logistic Regression
 * Neural Networks
 * Support Vector Machines
+
 #### Unsupervised Learning
+* K-Mean Clustering
+* Principal Component Analysis
 
 Other topics:
 * Cost Functions and Hypothesis
@@ -24,3 +27,4 @@ Other topics:
 * Error Analysis
 * Large Margin Classification
 * Kernels
+* Clustering
