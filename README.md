@@ -14,7 +14,7 @@ The following models were studied:
 * K-Mean Clustering
 * Principal Component Analysis
 
-Other topics:
+#### Other topics:
 * Cost Functions and Hypothesis
 * Gradient Descent and Normal Equations
 * Feature Normalization
