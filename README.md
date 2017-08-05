@@ -24,6 +24,7 @@ The following models were studied:
 * Regularization
 * Backpropogation
 * Algorithm Evaluation and Opmization
+* Model Selection
 * Error Analysis
 * Large Margin Classification
 * Kernels
