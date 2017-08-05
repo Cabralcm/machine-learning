@@ -27,6 +27,7 @@ The following models were studied:
 * Model Selection
 * Machine Learning System Design
 * Error Analysis
+* Handling Skewed Data
 * Large Margin Classification
 * Kernels
 * Clustering
