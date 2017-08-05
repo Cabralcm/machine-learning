@@ -25,6 +25,7 @@ The following models were studied:
 * Backpropogation
 * Algorithm Evaluation and Opmization
 * Model Selection
+* Machine Learning System Design
 * Error Analysis
 * Large Margin Classification
 * Kernels
