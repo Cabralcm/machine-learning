@@ -33,7 +33,7 @@ for i = 1:size(prediction,1)
   model = svmTrain(X, y, C, @(x1, x2) gaussianKernel(x1, x2, sigma));
   prediction(i, :) = svmPredict(model, Xval)';
   prediction_error(i) = mean(double(prediction(i,:)' ~= yval));
-  printf(['Prediction_error: %f\tC: %f\tSigma: %f\t'], prediction_error(i), C, sigma);
+  fprintf(['Prediction_error: %f\tC: %f\tSigma: %f\t'], prediction_error(i), C, sigma);
 end
  [~, lowest_error_index] =  min(prediction_error);
  C = C_sigma_pairs(lowest_error_index, 1);
