@@ -97,8 +97,13 @@ while ~isempty(email_contents)
     %       str2). It will return 1 only if the two strings are equivalent.
     %
 
-
-
+    [foo, str_index] = max(strcmp(str, vocabList));
+    % word has not been found in vocabList, return nothing (if not max will
+    % return 1 as default index if no max found)
+    if foo == 0
+      str_index=[];
+    end
+    word_indices = [word_indices; str_index];
 
 
 
@@ -109,6 +114,8 @@ while ~isempty(email_contents)
     % =============================================================
 
 
+    
+    
     % Print to screen, ensuring that the output lines are not too long
     if (l + length(str) + 1) > 78
         fprintf('\n');
@@ -118,6 +125,7 @@ while ~isempty(email_contents)
     l = l + length(str) + 1;
 
 end
+
 
 % Print footer
 fprintf('\n\n=========================\n');
