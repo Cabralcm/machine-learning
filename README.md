@@ -12,7 +12,7 @@ The following models were studied:
 
 #### Unsupervised Learning
 * K-Mean Clustering
-* Principal Component Analysis
+
 
 #### Other topics:
 * Cost Functions and Hypothesis
@@ -31,3 +31,4 @@ The following models were studied:
 * Large Margin Classification
 * Kernels
 * Clustering
+* Principal Component Analysis
