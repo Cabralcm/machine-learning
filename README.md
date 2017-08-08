@@ -1,5 +1,5 @@
 # Coursera-Machine-Learning
-An intutive and feet-first introduction to fundamental machine learning algorithms. 
+An intuitive and feet-first introduction to fundamental machine learning algorithms. 
 
 Algorithms were coded in Matlab/Octave.
 
