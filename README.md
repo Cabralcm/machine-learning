@@ -12,7 +12,7 @@ The following models were studied:
 
 #### Unsupervised Learning
 * K-Mean Clustering
-
+* Recommender Systems
 
 #### Other topics:
 * Cost Functions and Hypothesis
