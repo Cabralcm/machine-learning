@@ -1,4 +1,4 @@
-# Coursera-Machine-Learning
+# Machine-Learning
 An intuitive and application orientated introduction to fundamental machine learning algorithms and system design.
 
 Algorithms were coded in Matlab/Octave.
